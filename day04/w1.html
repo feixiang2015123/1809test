@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="w1.php" method="post" enctype="multipart/form-data">
+        <!-- 多选操作, name的值必须有[]结尾 -->
+        <input type="file" name="ff[]">
+        <br>
+        <input type="file" name="ff[]">
+        <br>
+        <input type="file" name="ff[]">
+        <br>
+        <!-- 任意数量的多选 -->
+        <!-- <input multiple="multiple" type="file" name="ff[]"> -->
+        <br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+
+</html>
